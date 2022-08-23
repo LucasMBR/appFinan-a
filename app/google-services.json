@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "787181680525",
+    "project_id": "prospifyv1",
+    "storage_bucket": "prospifyv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787181680525:android:98d643b5447401b8872fc4",
+        "android_client_info": {
+          "package_name": "com.prospify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787181680525-7ue55c6urf5nnkqkdtm6fsc16alv3hqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prospify",
+            "certificate_hash": "9b2113a7787fc44deb34b0d83aade0de9e5eaf9c"
+          }
+        },
+        {
+          "client_id": "787181680525-9ju29k8kbebu0327dtubhscbdgivn87a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLgBNixQYvu7jLTvRmuVhSFS-AbrbhGz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787181680525-9ju29k8kbebu0327dtubhscbdgivn87a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
