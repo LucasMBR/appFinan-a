@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1945" />
+        <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1945" />
+        <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1945" />
         <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/layout/activity_cadastro.xml" value="0.2" />
-        <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/layout/intro_1.xml" value="0.25" />
         <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/layout/intro_2.xml" value="0.2" />
         <entry key="..\:/Temp/AndroidDevelop/Prospify/app/src/main/res/layout/intro_3.xml" value="0.2" />

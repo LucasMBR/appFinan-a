@@ -1,4 +1,4 @@
-package com.prospify;
+package com.prospify.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.view.View;
 
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
+import com.prospify.R;
+import com.prospify.activity.CadastroActivity;
+import com.prospify.activity.LoginActivity;
 
 public class MainActivity extends IntroActivity {
 
