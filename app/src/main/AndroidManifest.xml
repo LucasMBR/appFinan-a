@@ -14,6 +14,11 @@
         android:theme="@style/Theme.Prospify"
         tools:targetApi="31">
         <activity
+            android:name=".activity.PrincipalActivity"
+            android:exported="false"
+            android:label="@string/title_activity_principal"
+            android:theme="@style/Theme.Prospify.NoActionBar" />
+        <activity
             android:name=".activity.CadastroActivity"
             android:exported="false" />
         <activity
