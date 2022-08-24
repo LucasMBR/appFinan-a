@@ -1,9 +1,11 @@
 package com.prospify;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
-import com.heinrichreimersoftware.materialintro.slide.SimpleSlide;
 
 public class MainActivity extends IntroActivity {
 
@@ -36,32 +38,14 @@ public class MainActivity extends IntroActivity {
         addSlide(new FragmentSlide.Builder()
                 .background(android.R.color.white)
                 .fragment(R.layout.intro_cadastro)
+                .canGoForward(false)
                 .build());
-        /*
-        setButtonBackVisible(false);
-        setButtonNextVisible(false);
-        addSlide(new SimpleSlide.Builder()
-                .title("Titulo")
-                .description("Descricao")
-                .image(R.drawable.um)
-                .background(android.R.color.holo_orange_light)
-                .build()
-        );
-        addSlide(new SimpleSlide.Builder()
-                .title("Titulo 2")
-                .description("Descricao 2")
-                .image(R.drawable.dois)
-                .background(android.R.color.holo_orange_light)
-                .build()
-        );
-        addSlide(new SimpleSlide.Builder()
-                .title("Titulo 3")
-                .description("Descricao 3")
-                .image(R.drawable.tres)
-                .background(android.R.color.holo_orange_light)
-                .build()
-        );
-        */
+    }
+    public void btnEntrar(View view){
+        startActivity(new Intent(this, LoginActivity.class));
+    }
+    public void btnCadastrar(View view){
+        startActivity(new Intent(this, CadastroActivity.class));
 
     }
 }
