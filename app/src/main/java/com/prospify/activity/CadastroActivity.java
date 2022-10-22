@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,6 +19,7 @@ import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.prospify.R;
 import com.prospify.config.ConfiguracaoFirebase;
+import com.prospify.helper.base64Custom;
 import com.prospify.model.Usuario;
 
 public class CadastroActivity extends AppCompatActivity {
@@ -78,7 +80,9 @@ public class CadastroActivity extends AppCompatActivity {
                 usuario.getSenha()
         ).addOnCompleteListener(this, task -> {
             if(task.isSuccessful()){
-
+                String idUsuario = base64Custom.codificarBase64(usuario.getEmail());
+                usuario.setIdUsuario(idUsuario);
+                usuario.salvar();
                 finish();
             }else {
                 String excecao = "";

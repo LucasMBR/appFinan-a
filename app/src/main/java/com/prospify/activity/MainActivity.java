@@ -65,7 +65,7 @@ public class MainActivity extends IntroActivity {
     public void verificarUsuarioLogado(){
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
         //Metodo para deslogar durante os testes.
-        // autenticacao.signOut();
+        //autenticacao.signOut();
         if(autenticacao.getCurrentUser() != null){
             abrirTelaPrincipal();
         }
