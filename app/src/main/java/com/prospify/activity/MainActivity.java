@@ -22,25 +22,6 @@ public class MainActivity extends IntroActivity {
 
         setButtonBackVisible(false);
         setButtonNextVisible(false);
-        addSlide(new FragmentSlide.Builder()
-                .background(android.R.color.white)
-                .fragment(R.layout.intro_1)
-                        .build());
-
-        addSlide(new FragmentSlide.Builder()
-                .background(android.R.color.white)
-                .fragment(R.layout.intro_2)
-                        .build());
-
-        addSlide(new FragmentSlide.Builder()
-                .background(android.R.color.white)
-                .fragment(R.layout.intro_3)
-                .build());
-
-        addSlide(new FragmentSlide.Builder()
-                .background(android.R.color.white)
-                .fragment(R.layout.intro_4)
-                .build());
 
         addSlide(new FragmentSlide.Builder()
                 .background(android.R.color.white)
