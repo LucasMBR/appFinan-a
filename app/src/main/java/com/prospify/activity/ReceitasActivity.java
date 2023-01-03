@@ -49,6 +49,7 @@ public class ReceitasActivity extends AppCompatActivity {
     public void salvarReceita (View view){
 
         if (validarCamposReceita()){
+
             movimentacao = new Movimentacao();
             String data = campoData.getText().toString();
             Double valorRecuperado = Double.parseDouble(campoValor.getText().toString());
@@ -69,6 +70,7 @@ public class ReceitasActivity extends AppCompatActivity {
     }
 
     public Boolean validarCamposReceita(){
+
         String textoValor = campoValor.getText().toString();
         String textoData = campoData.getText().toString();
         String textoCategoria = campoCategoria.getText().toString();
